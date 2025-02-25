@@ -2,6 +2,7 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 import { FiArrowRight } from "react-icons/fi";
+import { FaHandsHelping, FaChartLine } from "react-icons/fa";
 
 
 const FeatureCard = ({
@@ -37,9 +38,11 @@ const Business = () => (
     >
       <h2 className="text-[36px] font-bold text-[#FFFFFF] leading-[44px] mb-4">
         KOLABORASI & INOVASI <br />
-        <h2 className="font-poppins font-semibold ss:text-[18px] text-[16px] text-[#66B2D6] ss:leading-[26px] leading-[24px] w-full mt-1">
-          Bangun Koneksi, Wujudkan Ide, dan Kembangkan Komunitas Digital
-        </h2>
+        <span className="font-poppins font-semibold ss:text-[16px] text-[14px] text-[#66B2D6] ss:leading-[24px] leading-[22px] w-full mt-1 flex items-center">
+          <FaHandsHelping className="text-[#66B2D6] text-[20px] mr-2" />
+          Terhubung, Berinovasi, Kembangkan Komunitas Digital
+          <FaChartLine className="text-[#66B2D6] text-[20px] ml-2" />
+        </span>
       </h2>
       <p className="text-[18px] text-[#000000] leading-[28px]">
         Di era digital, inovasi dan kolaborasi menjadi fondasi utama untuk

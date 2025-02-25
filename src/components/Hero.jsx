@@ -1,6 +1,7 @@
 import styles from "../style";
 import { villageTech, innovation, overlay1, overlay2 } from "../assets";
 import GetStarted from "./GetStarted";
+import {FaHome, FaChartLine} from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -24,25 +25,31 @@ const Hero = () => {
             Branding
           </p>
         </div>
-
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-bold ss:text-[42px] text-[38px] text-[#FFFFFF] ss:leading-[60px] leading-[50px]">
-            Mari, Bersama "Beopoeng"!!!
-            <br className="sm:block hidden" />{" "}
+            <span className="text-[#D7D7D7]">
+              wujudkan masa depan digital bersama
+            </span>
+            &nbsp;
+            <span className="text-[#FF9999] font-bold">"Beopoeng"!</span>
+            <br className="sm:block hidden" />
           </h1>
+
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
         </div>
-
-        <h2 className="font-poppins font-semibold ss:text-[18px] text-[16px] text-[#66B2D6] ss:leading-[26px] leading-[24px] w-full mt-1">
-          🌍 Membangun Desa Maju, Mandiri, dan Berdaya Saing!
+        
+        <h2 className="font-poppins font-semibold ss:text-[18px] text-[16px] text-[#66B2D6] ss:leading-[26px] leading-[24px] w-full mt-1 flex items-center">
+          <FaHome className="text-[#66B2D6] text-[20px] mr-2" />
+          Membangun Desa Maju, Mandiri, dan Berdaya Saing!
+          <FaChartLine className="text-[#66B2D6] text-[20px] ml-2" />
         </h2>
-
         <p
           className={`${styles.paragraph} max-w-[570px] mt-5 text-[#000000] text-base leading-6`}
         >
-          Di era digital, teknologi adalah kunci kemajuan desa! Dengan "Beopoeng", kami menghubungkan komunitas desa dengan solusi digital
+          Di era digital, teknologi adalah kunci kemajuan desa! Dengan
+          "Beopoeng", kami menghubungkan komunitas desa dengan solusi digital
           inovatif untuk menciptakan ekosistem yang lebih produktif dan berdaya
           saing.
         </p>

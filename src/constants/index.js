@@ -16,6 +16,10 @@ export const navLinks = [
     title: "KOLABORASI & INOVASI",
   },
   {
+    id: "EKONOMI DIGITAL",
+    title: "EKONOMI DIGITAL",
+  },
+  {
     id: "KOMUNIKASI CEPAT & INTERAKTIF",
     title: "KOMUNIKASI CEPAT & INTERAKTIF",
   },

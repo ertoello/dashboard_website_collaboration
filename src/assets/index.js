@@ -1,5 +1,9 @@
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
+import bill2 from "./bill2.png";
+import bill3 from "./bill3.png";
+import bill4 from "./bill4.png";
+import bill5 from "./bill5.png";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
@@ -33,6 +37,10 @@ import logobeopoeng from "./logopanjang.png";
 export {
   airbnb,
   bill,
+  bill2,
+  bill3,
+  bill4,
+  bill5,
   binance,
   card,
   coinbase,
