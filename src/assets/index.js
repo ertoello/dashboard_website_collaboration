@@ -32,6 +32,7 @@ import innovation from "./innovation.png";
 import overlay1 from "./overlay1.jpg";
 import overlay2 from "./overlay2.jpg";
 import logobeopoeng from "./logopanjang.png";
+import chatfeature from "./chat-feature.png";
 
 
 export {
@@ -69,4 +70,5 @@ export {
   overlay1,
   overlay2,
   logobeopoeng,
+  chatfeature,
 };

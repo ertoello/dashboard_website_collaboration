@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id="BERANDA"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} mt-[64px]`}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
@@ -39,7 +39,7 @@ const Hero = () => {
             <GetStarted />
           </div>
         </div>
-        
+
         <h2 className="font-poppins font-semibold ss:text-[18px] text-[16px] text-[#66B2D6] ss:leading-[26px] leading-[24px] w-full mt-1 flex items-center">
           <FaHome className="text-[#66B2D6] text-[20px] mr-2" />
           Membangun Desa Maju, Mandiri, dan Berdaya Saing!
