@@ -3,11 +3,8 @@ import {
   Billing,
   Business,
   CardDeal,
-  Clients,
-  CTA,
   Footer,
   Navbar,
-  Stats,
   Testimonials,
   Hero,
 } from "./components";
@@ -32,8 +29,6 @@ const App = () => (
         <Billing />
         <CardDeal />
         <Testimonials />
-        <Clients />
-        <CTA />
         <Footer />
       </div>
     </div>

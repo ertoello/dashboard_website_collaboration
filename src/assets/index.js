@@ -1,4 +1,3 @@
-import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import bill2 from "./bill2.png";
 import bill3 from "./bill3.png";
@@ -17,7 +16,6 @@ import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
-import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
@@ -36,7 +34,6 @@ import chatfeature from "./chat-feature.png";
 
 
 export {
-  airbnb,
   bill,
   bill2,
   bill3,
@@ -55,7 +52,6 @@ export {
   menu,
   close,
   google,
-  apple,
   arrowUp,
   discount,
   facebook,
